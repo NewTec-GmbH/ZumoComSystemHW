@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCP73844-840I_MS")(type "Legacy")(uri "${KIPRJMOD}/symbols/MCP73844-840I_MS.lib")(options "")(descr ""))
+  (lib (name "MLL1200S")(type "Legacy")(uri "${KIPRJMOD}/symbols/MLL1200S.lib")(options "")(descr ""))
+  (lib (name "LT1374CS8-5PBF")(type "Legacy")(uri "${KIPRJMOD}/symbols/LT1374CS8-5PBF.lib")(options "")(descr ""))
+  (lib (name "S-8252AAL-M6T1U")(type "Legacy")(uri "${KIPRJMOD}/symbols/S-8252AAL-M6T1U.lib")(options "")(descr ""))
+  (lib (name "PJ-090BH")(type "KiCad")(uri "${KIPRJMOD}/libs/PJ-090BH.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/libs/Espressif.kicad_sym")(options "")(descr ""))
+)
