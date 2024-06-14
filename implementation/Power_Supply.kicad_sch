@@ -2766,7 +2766,7 @@
     (property "Footprint" "footprints:SW_MLL1200S" (at 48.26 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" (at 48.26 53.34 0)
+    (property "Datasheet" "https://www.digikey.de/htmldatasheets/production/45738/0/0/1/eg1257-drawing.pdf" (at 48.26 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Manufacturer" "E-Switch" (at 48.26 53.34 0)
