@@ -6,7 +6,7 @@
 
   (title_block
     (title "ZumoComSystem")
-    (date "2024-04-15")
+    (date "2024-06-14")
     (rev "2.0")
     (company "NewTec GmbH")
     (comment 1 "Reyes, Gabryel")
@@ -2785,6 +2785,14 @@
     )
   )
 
+  (text_box "R20 = V_FCS / I_REG\n	= 110mV / 500mA\n	= 220mOhm"
+    (at 86.36 186.69 0) (size 30.48 7.62)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid b683469b-e10d-427f-aa51-de68645b2507)
+  )
+
   (text "6.0V => 2457" (at 271.78 119.38 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0565700a-9721-4677-950c-59b6fca0da37)
@@ -2825,7 +2833,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da298446-bfae-4e23-aa4b-008e20e5dfbd)
   )
-  (text "12V" (at 38.1 148.59 0)
+  (text "12V / 600mA" (at 33.02 148.59 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd582cff-941e-4cd8-bd94-b2cf965296d9)
   )
