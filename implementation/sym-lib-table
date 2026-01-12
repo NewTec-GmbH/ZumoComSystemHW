@@ -6,4 +6,5 @@
   (lib (name "S-8252AAL-M6T1U")(type "Legacy")(uri "${KIPRJMOD}/symbols/S-8252AAL-M6T1U.lib")(options "")(descr ""))
   (lib (name "PJ-090BH")(type "KiCad")(uri "${KIPRJMOD}/libs/PJ-090BH.kicad_sym")(options "")(descr ""))
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/libs/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP73844-840I_MS_SELF")(type "KiCad")(uri "${KIPRJMOD}/libs/MCP73844-840I_MS_SELF.kicad_sym")(options "")(descr ""))
 )
