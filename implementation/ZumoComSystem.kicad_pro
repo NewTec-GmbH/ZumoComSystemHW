@@ -985,6 +985,90 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CUI_purchase_URL",
+          "name": "CUI_purchase_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1030,7 +1114,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://NT_Schematic_template_KiKad.kicad_wks",
     "plot_directory": "output/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -1056,24 +1140,20 @@
       "IO"
     ],
     [
+      "0dfdc0ee-e887-4fe5-897b-ad62ca76d1c4",
+      "USB_Connector"
+    ],
+    [
       "36343993-8bc8-460e-a919-34dba5144d61",
       "Zumo_Connector"
     ],
     [
-      "e52bffab-4079-48da-a6b9-401096ad4de4",
-      "Display_Passthrough"
+      "82bf8564-246a-44c9-96c9-b82f525b42db",
+      "Power_Supply"
     ],
     [
       "aaa37362-47b8-4fd3-8977-e9f3436d2a7c",
       "Battery"
-    ],
-    [
-      "3cdef04c-eb9d-4305-87df-b1c292974d02",
-      "USB_UART"
-    ],
-    [
-      "82bf8564-246a-44c9-96c9-b82f525b42db",
-      "Power_Supply"
     ]
   ],
   "text_variables": {}
