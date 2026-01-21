@@ -2980,8 +2980,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3081,8 +3085,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4294,7 +4297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0365ebb4-6be6-4a97-ae00-974a252006ae")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -4370,7 +4373,7 @@
 		(instances
 			(project ""
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4385,7 +4388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1af41fa4-e7a4-4cef-8468-0567c2e54c80")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 110.49 46.5582 0)
 			(effects
 				(font
@@ -4533,7 +4536,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4549,7 +4552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c83e0fa-a5bc-4ec7-b90b-fb698054c0b3")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 182.88 118.618 0)
 			(effects
 				(font
@@ -4635,7 +4638,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4714,7 +4717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e13733c-20f0-4458-9f00-f310ab7c3e5e")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 180.848 54.7116 0)
 			(effects
 				(font
@@ -4785,7 +4788,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4866,7 +4869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d2c3e09-bdef-417c-9330-031456af8636")
-		(property "Reference" "SW7"
+		(property "Reference" "SW5"
 			(at 219.71 73.025 90)
 			(effects
 				(font
@@ -4937,7 +4940,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "SW7")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4952,7 +4955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65fbde52-9e20-4405-b195-04de23aec383")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR023"
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -5001,7 +5004,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "#PWR016")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5233,7 +5236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77967f80-ec78-4802-b7d9-f7a5cb6a8bcb")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR022"
 			(at 78.74 149.86 0)
 			(effects
 				(font
@@ -5282,7 +5285,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "#PWR060")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5297,7 +5300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bb09a08-4563-44dd-a644-0107153cd31c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 52.07 93.98 0)
 			(effects
 				(font
@@ -5346,7 +5349,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5361,7 +5364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "986ae27e-f128-440a-97be-156262602474")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR020"
 			(at 72.39 130.81 0)
 			(effects
 				(font
@@ -5410,7 +5413,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "#PWR059")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5570,7 +5573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8aba5e2-b6ef-486e-9f29-ee85518152e0")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 215.646 118.11 0)
 			(effects
 				(font
@@ -5656,7 +5659,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5672,7 +5675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d77c86-45e4-4e6a-8711-f1c30727e8ab")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR029"
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -5721,7 +5724,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "#PWR057")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5736,7 +5739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7911bc3-fd98-4646-a4a0-f1e1ba6e492a")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR024"
 			(at 102.87 130.81 0)
 			(effects
 				(font
@@ -5785,7 +5788,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "#PWR058")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5800,7 +5803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d71fd640-6100-4958-acae-8e9875a947b6")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 191.008 54.7116 0)
 			(effects
 				(font
@@ -5871,7 +5874,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)

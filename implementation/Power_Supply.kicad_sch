@@ -1852,8 +1852,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1953,8 +1957,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2987,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07483e3a-1d35-49b9-bba1-4f3974fc8434")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR030"
 			(at 66.04 106.68 0)
 			(effects
 				(font
@@ -3036,7 +3039,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR044")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3051,7 +3054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15d167a8-5b85-4488-a7fc-b80935f82bb1")
-		(property "Reference" "C10"
+		(property "Reference" "C3"
 			(at 179.451 134.7216 0)
 			(effects
 				(font
@@ -3122,7 +3125,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "C10")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3138,7 +3141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17d4240e-112e-4a45-9a0b-51438669b93f")
-		(property "Reference" "Q7"
+		(property "Reference" "Q2"
 			(at 110.49 46.99 90)
 			(effects
 				(font
@@ -3213,7 +3216,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "Q7")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3229,7 +3232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19030e32-572e-417f-93a4-336abca23af4")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR038"
 			(at 200.66 50.8 0)
 			(effects
 				(font
@@ -3278,7 +3281,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR054")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3294,7 +3297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d37d61f-d187-466d-b47a-7c1fd2e0d23c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR040"
 			(at 207.01 99.06 0)
 			(effects
 				(font
@@ -3329,12 +3332,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 207.01 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3343,7 +3347,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR052")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3358,7 +3362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3267541d-9bd0-47b1-9abf-b9a067a50b0e")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR035"
 			(at 176.53 157.48 0)
 			(effects
 				(font
@@ -3407,7 +3411,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR048")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3422,7 +3426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3307ea3c-8ee5-4764-8c8a-09228ef4f099")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR032"
 			(at 85.09 157.48 0)
 			(effects
 				(font
@@ -3471,7 +3475,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR046")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3570,7 +3574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d63bcd3-5eec-45c6-8022-34bb5b0dda6e")
-		(property "Reference" "C12"
+		(property "Reference" "C4"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -3641,7 +3645,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3657,7 +3661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e98384a-ebea-44b5-b034-893f80169a25")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 187.96 43.18 0)
 			(effects
 				(font
@@ -3729,7 +3733,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3744,7 +3748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f19b7a3-44c2-4768-8acf-14a7d72009ec")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR037"
 			(at 191.77 157.48 0)
 			(effects
 				(font
@@ -3793,7 +3797,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR050")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3809,7 +3813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ac9c04-01a4-44de-b399-5732be9f396a")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR039"
 			(at 200.66 66.04 0)
 			(effects
 				(font
@@ -3858,7 +3862,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR055")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3873,7 +3877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cdc6de6-7b22-4291-b876-4f07f3c06d06")
-		(property "Reference" "D14"
+		(property "Reference" "D9"
 			(at 193.802 134.7216 90)
 			(effects
 				(font
@@ -3944,7 +3948,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "D14")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3959,7 +3963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ba4fff2-d8d1-4228-8072-8222b780be0a")
-		(property "Reference" "D15"
+		(property "Reference" "D10"
 			(at 198.12 102.4382 0)
 			(effects
 				(font
@@ -4028,7 +4032,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "D15")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4043,7 +4047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b52c7d99-9570-456d-9e0c-a8a84b34998d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR031"
 			(at 74.93 157.48 0)
 			(effects
 				(font
@@ -4092,7 +4096,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR045")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4107,7 +4111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7aeecd0-2d61-4617-87c8-ce708b89c5cc")
-		(property "Reference" "C9"
+		(property "Reference" "C1"
 			(at 77.851 135.9916 0)
 			(effects
 				(font
@@ -4178,7 +4182,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "C9")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4194,8 +4198,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1e6164e-d768-461a-b891-9d5882a64805")
-		(property "Reference" "C11"
-			(at 175.26 53.086 0)
+		(property "Reference" "C2"
+			(at 175.26 52.4509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4208,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 175.26 55.626 0)
+			(at 175.26 54.9909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 172.4152 58.42 0)
 			(effects
 				(font
@@ -4265,7 +4269,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4382,7 +4386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d64d4d57-b8ac-41f4-a238-ea464f6b2c64")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 175.26 47.625 0)
 			(effects
 				(font
@@ -4431,7 +4435,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4446,7 +4450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6d15560-0eec-4033-b9de-9b84a11841a6")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 199.39 93.345 0)
 			(effects
 				(font
@@ -4496,7 +4500,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7e83aba-71b6-4ebc-8468-c362f9f61abe")
-		(property "Reference" "C13"
+		(property "Reference" "C6"
 			(at 209.931 134.7216 0)
 			(effects
 				(font
@@ -4582,7 +4586,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4598,8 +4602,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5da3b0-f5ea-4e26-9d82-32d4ca1858dc")
-		(property "Reference" "C14"
-			(at 204.47 53.086 0)
+		(property "Reference" "C5"
+			(at 204.47 52.4509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4612,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 204.47 55.626 0)
+			(at 204.47 54.9909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 201.6252 58.42 0)
 			(effects
 				(font
@@ -4669,7 +4673,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "C14")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4684,7 +4688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbd73023-8502-465f-b784-1679f705d2d4")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 130.81 111.379 0)
 			(effects
 				(font
@@ -4773,7 +4777,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4788,7 +4792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e58df643-73e0-4971-8ef4-3e89b1a91cdb")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR033"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -4837,7 +4841,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR047")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4853,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea29ae9d-d58d-4bf5-b4d0-5a489f0f0db7")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR036"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -4902,7 +4906,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR051")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4917,7 +4921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc0879e5-e2a6-4cd4-8177-bf20606ac901")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR041"
 			(at 207.01 157.48 0)
 			(effects
 				(font
@@ -4966,7 +4970,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR053")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4982,7 +4986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdde6b92-eb9e-4d28-92aa-a5783c9205c8")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR034"
 			(at 171.45 66.04 0)
 			(effects
 				(font
@@ -5031,7 +5035,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#PWR049")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

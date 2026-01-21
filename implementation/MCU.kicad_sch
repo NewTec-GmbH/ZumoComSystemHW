@@ -1062,12 +1062,15 @@
 			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at 0 2.032 0)
@@ -1601,8 +1604,8 @@
 		(uuid 8256b74d-f381-4f70-9e15-5d86a4cfb454)
 	)
 	(rectangle
-		(start 16.51 157.48)
-		(end 60.96 194.31)
+		(start 60.96 158.75)
+		(end 105.41 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -1796,8 +1799,8 @@
 		(uuid eb87321a-2f61-4f71-952b-5f37c52fa1c4)
 	)
 	(rectangle
-		(start 62.23 157.48)
-		(end 106.68 194.31)
+		(start 15.24 158.75)
+		(end 59.69 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -1834,7 +1837,7 @@
 		)
 		(uuid fc4568f4-79d9-41a4-a8c7-31f00d606249)
 	)
-	(text "BATT_Volt_Measure values"
+	(text "BATT_Volt_Measure ADC values"
 		(exclude_from_sim no)
 		(at 264.922 82.55 0)
 		(effects
@@ -1890,7 +1893,7 @@
 	)
 	(text "Force Reset"
 		(exclude_from_sim no)
-		(at 77.47 162.56 0)
+		(at 30.48 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1923,7 +1926,7 @@
 	)
 	(text "Force Boot Mode"
 		(exclude_from_sim no)
-		(at 29.21 162.56 0)
+		(at 73.66 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2035,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 180.34) (xy 31.75 185.42)
+			(xy 76.2 181.61) (xy 76.2 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2072,16 +2075,6 @@
 			(type default)
 		)
 		(uuid "0ba50fd0-8d45-4c16-812c-64bf15c79153")
-	)
-	(wire
-		(pts
-			(xy 77.47 180.34) (xy 77.47 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10bd0e38-d1cf-4fae-a653-86129e5030b3")
 	)
 	(polyline
 		(pts
@@ -2167,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 167.64) (xy 77.47 172.72)
+			(xy 30.48 168.91) (xy 30.48 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2224,6 +2217,16 @@
 			(type default)
 		)
 		(uuid "44cdcbe9-061c-4ff6-aecb-671ae2fab419")
+	)
+	(wire
+		(pts
+			(xy 30.48 181.61) (xy 30.48 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4552f87c-c9ac-4207-badd-91e9082fdc89")
 	)
 	(polyline
 		(pts
@@ -2329,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 167.64) (xy 31.75 172.72)
+			(xy 76.2 168.91) (xy 76.2 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2554,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 167.64) (xy 44.45 167.64)
+			(xy 76.2 168.91) (xy 88.9 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 167.64) (xy 91.44 167.64)
+			(xy 30.48 168.91) (xy 44.45 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2704,7 +2707,7 @@
 		(uuid "3ceb64fc-188f-4a25-9469-e82fb27792c5")
 	)
 	(label "BOOT"
-		(at 44.45 167.64 180)
+		(at 88.9 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2901,7 +2904,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ca05118f-b6ec-47db-8515-1128a51601d3")
+		(uuid "ca05118f-b6ec-47db-8515-1128a51601d4")
 	)
 	(label "Button_C"
 		(at 242.57 144.78 0)
@@ -2934,7 +2937,7 @@
 		(uuid "e5367d5d-01ac-4a6a-8943-fb5f3dcdcc5f")
 	)
 	(label "EN"
-		(at 91.44 167.64 180)
+		(at 44.45 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3148,7 +3151,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 185.42 0)
+		(at 30.48 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3156,8 +3159,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "242ff923-7980-4d1e-bd95-76ffa40e189b")
-		(property "Reference" "#PWR03"
-			(at 77.47 191.77 0)
+		(property "Reference" "#PWR1"
+			(at 30.48 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3169,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 190.5 0)
+			(at 30.48 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 185.42 0)
+			(at 30.48 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 185.42 0)
+			(at 30.48 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,12 +3194,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 77.47 185.42 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3205,7 +3209,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
-					(reference "#PWR03")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -3654,7 +3658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ea0158c-7a00-42ec-9b1c-9e7acddf8124")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 100.33 33.02 0)
 			(effects
 				(font
@@ -3703,7 +3707,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3794,81 +3798,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9a7af26-5891-4ecf-b9d7-e933356ccecb")
-		(property "Reference" "#PWR01"
-			(at 31.75 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2dbe2dde-a010-48fa-8f8e-ccb981a8f53c")
-		)
-		(instances
-			(project "ZumoComSystem"
-				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 77.47 176.53 270)
+		(at 30.48 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ac5695ff-0737-4f4e-a6e4-322f3de544a0")
-		(property "Reference" "JP2"
-			(at 83.82 176.53 90)
+		(property "Reference" "JP1"
+			(at 36.83 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3815,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 91.44 180.34 90)
+			(at 44.45 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3823,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 77.47 176.53 0)
+			(at 30.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 176.53 0)
+			(at 30.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 176.53 0)
+			(at 30.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +3849,7 @@
 			)
 		)
 		(property "Manufacturer" "-"
-			(at 77.47 176.53 0)
+			(at 30.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3858,7 @@
 			)
 		)
 		(property "Part-No." "-"
-			(at 77.47 176.53 0)
+			(at 30.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3875,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -3944,15 +3883,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 31.75 176.53 270)
+		(at 76.2 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c6d18e14-f1a8-4513-9f22-88a3ab02d480")
-		(property "Reference" "JP1"
-			(at 38.1 176.53 90)
+		(property "Reference" "JP2"
+			(at 82.55 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3899,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 45.72 180.34 90)
+			(at 90.17 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3907,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 31.75 176.53 0)
+			(at 76.2 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 176.53 0)
+			(at 76.2 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 176.53 0)
+			(at 76.2 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3933,7 @@
 			)
 		)
 		(property "Manufacturer" "-"
-			(at 31.75 176.53 0)
+			(at 76.2 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +3942,7 @@
 			)
 		)
 		(property "Part-No." "-"
-			(at 31.75 176.53 0)
+			(at 76.2 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +3959,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -4086,6 +4025,72 @@
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e766eb1c-88eb-4465-a61c-0b51712a22d9")
+		(property "Reference" "#PWR2"
+			(at 76.2 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf41a5bb-fd57-43c2-8adf-4a7c97bc5d8e")
+		)
+		(instances
+			(project "ZumoComSystem"
+				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)

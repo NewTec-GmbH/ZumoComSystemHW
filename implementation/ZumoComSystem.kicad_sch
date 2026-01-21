@@ -15,7 +15,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 114.3 96.52) (xy 124.46 96.52)
+			(xy 114.3 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
@@ -25,7 +25,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 66.04) (xy 190.5 66.04)
+			(xy 171.45 64.77) (xy 190.5 64.77)
 		)
 		(stroke
 			(width 0)
@@ -45,7 +45,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 95.25) (xy 190.5 95.25)
+			(xy 171.45 93.98) (xy 190.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -55,7 +55,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 190.5 86.36)
+			(xy 171.45 85.09) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -65,23 +65,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 90.17) (xy 190.5 90.17)
+			(xy 171.45 88.9) (xy 190.5 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a12c5fd-a710-4ac0-a604-c5231a672e49")
-	)
-	(wire
-		(pts
-			(xy 124.46 83.82) (xy 133.35 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a8c248-f193-4a0f-885a-29ccefc000bf")
 	)
 	(wire
 		(pts
@@ -95,7 +85,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 73.66) (xy 190.5 73.66)
+			(xy 171.45 72.39) (xy 190.5 72.39)
 		)
 		(stroke
 			(width 0)
@@ -105,7 +95,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 97.79) (xy 190.5 97.79)
+			(xy 171.45 96.52) (xy 190.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -115,7 +105,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 190.5 63.5)
+			(xy 171.45 62.23) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -125,7 +115,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 92.71) (xy 190.5 92.71)
+			(xy 171.45 91.44) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -135,7 +125,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 190.5 83.82)
+			(xy 171.45 82.55) (xy 190.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -145,7 +135,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 101.6) (xy 190.5 101.6)
+			(xy 171.45 100.33) (xy 190.5 100.33)
 		)
 		(stroke
 			(width 0)
@@ -172,16 +162,6 @@
 			(type default)
 		)
 		(uuid "c5a08ebe-456c-45fb-a5cb-6fca1c16f1c3")
-	)
-	(wire
-		(pts
-			(xy 124.46 96.52) (xy 124.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c63a92e6-d4e1-4645-a2e2-8c91ac6c1485")
 	)
 	(wire
 		(pts
@@ -228,7 +208,7 @@
 			)
 		)
 		(pin "Zumo_RST" input
-			(at 190.5 73.66 180)
+			(at 190.5 72.39 180)
 			(uuid "51b2e64b-a6d9-499d-9be9-48fd1ffb8521")
 			(effects
 				(font
@@ -238,7 +218,7 @@
 			)
 		)
 		(pin "EXT_SPI_MISO" output
-			(at 190.5 90.17 180)
+			(at 190.5 88.9 180)
 			(uuid "666793ee-24ca-4507-b566-383da4091fe9")
 			(effects
 				(font
@@ -248,7 +228,7 @@
 			)
 		)
 		(pin "EXT_SPI_MOSI" input
-			(at 190.5 92.71 180)
+			(at 190.5 91.44 180)
 			(uuid "aa626cf8-02c6-4797-b322-608786d18a88")
 			(effects
 				(font
@@ -258,7 +238,7 @@
 			)
 		)
 		(pin "EXT_SPI_CS" input
-			(at 190.5 97.79 180)
+			(at 190.5 96.52 180)
 			(uuid "727f6147-a9b0-4e75-ba91-4ece7e758ea9")
 			(effects
 				(font
@@ -268,7 +248,7 @@
 			)
 		)
 		(pin "EXT_SPI_CLK" bidirectional
-			(at 190.5 95.25 180)
+			(at 190.5 93.98 180)
 			(uuid "e522d512-9952-49af-a4ce-1c755189bf07")
 			(effects
 				(font
@@ -278,7 +258,7 @@
 			)
 		)
 		(pin "EXT_GPIO0" bidirectional
-			(at 190.5 101.6 180)
+			(at 190.5 100.33 180)
 			(uuid "af7f54d6-cd4f-4b06-818f-d0499c01e3ec")
 			(effects
 				(font
@@ -288,7 +268,7 @@
 			)
 		)
 		(pin "ESP_UART1_RX" output
-			(at 190.5 86.36 180)
+			(at 190.5 85.09 180)
 			(uuid "22faa20d-3b22-48df-be7b-d0c30f07e835")
 			(effects
 				(font
@@ -298,7 +278,7 @@
 			)
 		)
 		(pin "ESP_UART1_TX" input
-			(at 190.5 83.82 180)
+			(at 190.5 82.55 180)
 			(uuid "5ac1d224-574e-48a4-846b-f985a1d92472")
 			(effects
 				(font
@@ -308,7 +288,7 @@
 			)
 		)
 		(pin "ESP_UART0_TX" input
-			(at 190.5 63.5 180)
+			(at 190.5 62.23 180)
 			(uuid "40c77829-3f5d-4a14-bc52-c1a478bd7f43")
 			(effects
 				(font
@@ -318,7 +298,7 @@
 			)
 		)
 		(pin "ESP_UART0_RX" output
-			(at 190.5 66.04 180)
+			(at 190.5 64.77 180)
 			(uuid "2948eac0-5161-49de-b28f-6568a1d9c337")
 			(effects
 				(font
@@ -370,7 +350,7 @@
 			)
 		)
 		(pin "Zumo_RST" output
-			(at 171.45 73.66 0)
+			(at 171.45 72.39 0)
 			(uuid "6d7fb536-7153-4cb1-8873-8d8e38a17b9f")
 			(effects
 				(font
@@ -380,7 +360,7 @@
 			)
 		)
 		(pin "Batt_Volt_Measure" input
-			(at 133.35 83.82 180)
+			(at 133.35 96.52 180)
 			(uuid "3dab82db-21c6-412d-9f50-87368fc64759")
 			(effects
 				(font
@@ -390,7 +370,7 @@
 			)
 		)
 		(pin "EXT_SPI_MOSI" output
-			(at 171.45 92.71 0)
+			(at 171.45 91.44 0)
 			(uuid "7432e55b-7b8d-4c48-8759-fde40261e1d5")
 			(effects
 				(font
@@ -400,7 +380,7 @@
 			)
 		)
 		(pin "EXT_SPI_MISO" input
-			(at 171.45 90.17 0)
+			(at 171.45 88.9 0)
 			(uuid "c9662396-5ccc-4cb2-b448-d40959f13ee7")
 			(effects
 				(font
@@ -410,7 +390,7 @@
 			)
 		)
 		(pin "EXT_SPI_CS" output
-			(at 171.45 97.79 0)
+			(at 171.45 96.52 0)
 			(uuid "2cb1d281-d4ee-4809-8051-0a395213aadd")
 			(effects
 				(font
@@ -420,7 +400,7 @@
 			)
 		)
 		(pin "EXT_SPI_CLK" bidirectional
-			(at 171.45 95.25 0)
+			(at 171.45 93.98 0)
 			(uuid "f44c0783-e292-422f-9879-e649cde8bd7e")
 			(effects
 				(font
@@ -430,7 +410,7 @@
 			)
 		)
 		(pin "EXT_GPIO0" bidirectional
-			(at 171.45 101.6 0)
+			(at 171.45 100.33 0)
 			(uuid "65192eea-95a7-4344-94f9-a474253e5257")
 			(effects
 				(font
@@ -440,7 +420,7 @@
 			)
 		)
 		(pin "ESP_UART0_TX" output
-			(at 171.45 63.5 0)
+			(at 171.45 62.23 0)
 			(uuid "fc98d1e6-ddf2-4a9f-9f95-87be8ee54bbb")
 			(effects
 				(font
@@ -450,7 +430,7 @@
 			)
 		)
 		(pin "ESP_UART1_TX" output
-			(at 171.45 83.82 0)
+			(at 171.45 82.55 0)
 			(uuid "4c68d5df-19f5-4bb8-b751-872780a3ddfc")
 			(effects
 				(font
@@ -460,7 +440,7 @@
 			)
 		)
 		(pin "ESP_UART1_RX" input
-			(at 171.45 86.36 0)
+			(at 171.45 85.09 0)
 			(uuid "a24ced72-2bf3-4f60-bc39-06440f9afbd9")
 			(effects
 				(font
@@ -470,7 +450,7 @@
 			)
 		)
 		(pin "ESP_UART0_RX" input
-			(at 171.45 66.04 0)
+			(at 171.45 64.77 0)
 			(uuid "d17da709-4687-4f1e-ba09-f50a76eb1e5b")
 			(effects
 				(font

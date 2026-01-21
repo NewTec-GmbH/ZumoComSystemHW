@@ -3133,10 +3133,22 @@
 		(uuid "b683469b-e10d-427f-aa51-de68645b2507")
 	)
 	(junction
+		(at 43.18 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "001c215b-9c8d-4576-91d1-5144bbb274eb")
+	)
+	(junction
 		(at 74.93 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00ff0f83-face-4443-bfeb-f9465f6a78b8")
+	)
+	(junction
+		(at 139.7 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08c79343-85ec-4820-b0f2-8ef4a08a6258")
 	)
 	(junction
 		(at 74.93 118.11)
@@ -3680,7 +3692,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 43.18 78.74)
+			(xy 39.37 74.93) (xy 43.18 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4110,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 68.58) (xy 43.18 78.74)
+			(xy 43.18 68.58) (xy 43.18 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4380,6 +4392,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 74.93) (xy 43.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3794a90-ebdf-4976-ad42-be1ffd3bd17f")
+	)
+	(wire
+		(pts
 			(xy 130.81 137.16) (xy 133.35 137.16)
 		)
 		(stroke
@@ -4490,7 +4512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d07ce32-b2da-40ed-9b5e-45e593f9c620")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 116.84 84.8868 90)
 			(effects
 				(font
@@ -4563,7 +4585,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4579,7 +4601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fa25ac0-f7b1-4080-98df-8c63700204a6")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR048"
 			(at 240.03 147.32 0)
 			(effects
 				(font
@@ -4628,7 +4650,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#PWR035")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "103e1c1b-4efa-4bdd-a244-7c0e6b33ad7b")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 66.421 63.6016 0)
 			(effects
 				(font
@@ -4714,7 +4736,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4722,15 +4744,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 39.37 78.74 0)
+		(at 39.37 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "18e973fc-aa19-43a0-a951-3509cbf4568e")
-		(property "Reference" "#FLG01"
-			(at 39.37 76.835 0)
+		(property "Reference" "#FLG03"
+			(at 39.37 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4761,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 33.02 74.93 0)
+			(at 33.02 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 78.74 0)
+			(at 39.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 78.74 0)
+			(at 39.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 78.74 0)
+			(at 39.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4801,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4794,7 +4816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18f782d3-3221-4d7c-aa4f-b9b98f2790d8")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 43.18 32.385 0)
 			(effects
 				(font
@@ -4844,7 +4866,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -4859,7 +4881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1af17713-b237-4f32-b820-cbedf6ef45fb")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 127.508 72.4916 0)
 			(effects
 				(font
@@ -4930,7 +4952,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4946,7 +4968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ee125db-fded-44c5-b47e-b5af2afced89")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 39.37 111.76 0)
 			(effects
 				(font
@@ -5152,7 +5174,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5168,7 +5190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30dd42e3-6703-444c-b26d-0763a6d57eb5")
-		(property "Reference" "SW5"
+		(property "Reference" "SW7"
 			(at 234.95 26.67 0)
 			(effects
 				(font
@@ -5237,7 +5259,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "SW5")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -5253,7 +5275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "320b2bdb-6648-4a26-9a9f-300ab90095cc")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 69.85 134.62 0)
 			(effects
 				(font
@@ -5324,7 +5346,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "C2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34cf1b7d-74e8-4819-ae77-2c60757345be")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 160.02 116.205 0)
 			(effects
 				(font
@@ -5389,7 +5411,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39770a06-cb3f-4d9b-828c-c13048038aa8")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 57.15 48.0822 90)
 			(effects
 				(font
@@ -5473,7 +5495,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f28fe5e-d6c3-4f88-b8f4-74b5c1846e2e")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 77.851 63.6016 0)
 			(effects
 				(font
@@ -5559,7 +5581,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4233ac89-2302-4ec3-bd36-3f8a6ea186cf")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR046"
 			(at 227.33 43.18 0)
 			(effects
 				(font
@@ -5623,7 +5645,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#PWR033")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5738,7 +5760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48609ebc-3038-4404-9b0a-317c3ed6ec6b")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 81.28 132.08 90)
 			(effects
 				(font
@@ -5807,7 +5829,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5823,7 +5845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e655afc-e323-4d72-917c-c33bcc1ee728")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 216.662 133.4516 0)
 			(effects
 				(font
@@ -5894,7 +5916,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5909,7 +5931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d262114-4886-4ff8-a585-fbc384009c39")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR044"
 			(at 139.7 88.9 0)
 			(effects
 				(font
@@ -5958,7 +5980,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#PWR031")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5973,7 +5995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f847ee6-33df-48bd-9e0a-54d4850cb2c6")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 91.44 115.57 90)
 			(effects
 				(font
@@ -6042,7 +6064,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6057,7 +6079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64ac3f69-b1f3-4a88-ab7f-e2bca2e9fcc4")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 81.28 144.78 90)
 			(effects
 				(font
@@ -6126,7 +6148,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6311,7 +6333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8049f2ac-83bf-41e1-be9b-fb967f13c802")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR043"
 			(at 93.98 166.37 0)
 			(effects
 				(font
@@ -6360,7 +6382,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#PWR030")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6480,7 +6502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "894cba34-a98e-4442-957e-796f1e86e766")
-		(property "Reference" "D8"
+		(property "Reference" "D11"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -6549,7 +6571,72 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "D8")
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 139.7 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e0a5e58-5882-49d5-9dda-a8911d7d110f")
+		(property "Reference" "#FLG06"
+			(at 139.7 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0eff473e-7385-4954-8142-4ce29c422e6e")
+		)
+		(instances
+			(project "ZumoComSystem"
+				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -6564,7 +6651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95ee9d35-9a33-4a2a-acae-1c61ff0353c2")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 92.71 82.5246 90)
 			(effects
 				(font
@@ -6637,7 +6724,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6652,7 +6739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96a72731-289e-4a78-90f4-2ac4ef001f33")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR047"
 			(at 238.76 92.71 0)
 			(effects
 				(font
@@ -6701,7 +6788,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#PWR034")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6717,7 +6804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d8df7f9-201d-438d-abeb-9093c89c88ae")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 228.6 121.7422 90)
 			(effects
 				(font
@@ -6786,7 +6873,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6801,7 +6888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0078c9a-d92b-4afa-8c3c-4033aab86217")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR042"
 			(at 43.18 86.36 0)
 			(effects
 				(font
@@ -6850,7 +6937,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#PWR029")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6865,7 +6952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4875c2b-376b-41b8-b810-4feb250fb7d7")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 76.708 39.4716 0)
 			(effects
 				(font
@@ -6936,7 +7023,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6952,7 +7039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b62745a0-2ba9-4b68-a136-c8f5f8c8ead8")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 137.16 146.05 0)
 			(effects
 				(font
@@ -7023,7 +7110,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7039,7 +7126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7a2ab67-5d44-41e9-b670-9e261fa75494")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 134.62 111.9632 90)
 			(effects
 				(font
@@ -7112,7 +7199,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -7134,7 +7221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc486c23-9bbd-461d-8751-326c78616bc8")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 237.109 133.4516 0)
 			(effects
 				(font
@@ -7205,7 +7292,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7220,7 +7307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c593ed34-06a7-463a-a621-0a6899369d16")
-		(property "Reference" "D10"
+		(property "Reference" "D13"
 			(at 240.792 78.8416 90)
 			(effects
 				(font
@@ -7291,7 +7378,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "D10")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7307,7 +7394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ceddf337-1e19-4920-9746-5c5e33092d3a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR045"
 			(at 218.44 147.32 0)
 			(effects
 				(font
@@ -7356,7 +7443,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#PWR032")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7372,7 +7459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfbb7760-01b0-40d6-adf8-d23a2f6d2720")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 216.662 118.2116 0)
 			(effects
 				(font
@@ -7443,7 +7530,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7545,7 +7632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0c60fa9-df77-4386-b137-0d9d3141ee2b")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 163.83 132.08 0)
 			(effects
 				(font
@@ -7616,7 +7703,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7631,7 +7718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e60b2d98-ef4d-48b1-b679-95aef21599a9")
-		(property "Reference" "D9"
+		(property "Reference" "D12"
 			(at 91.44 139.7 0)
 			(effects
 				(font
@@ -7709,7 +7796,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "D9")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7724,7 +7811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe3a72b2-d911-45b3-bf7f-b59dfb5ec3ab")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 104.14 73.4822 90)
 			(effects
 				(font
@@ -7793,7 +7880,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
