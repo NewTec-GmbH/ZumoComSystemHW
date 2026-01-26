@@ -10,4 +10,5 @@
   (lib (name "2171820001")(type "KiCad")(uri "${KIPRJMOD}/libs/2171820001.kicad_sym")(options "")(descr ""))
   (lib (name "USB_C_SELF")(type "KiCad")(uri "${KIPRJMOD}/libs/USB_C_SELF.kicad_sym")(options "")(descr ""))
   (lib (name "LT1374CS8-5PBF_SELF")(type "KiCad")(uri "${KIPRJMOD}/libs/LT1374CS8-5PBF_SELF.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS560430X3FDBVT")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS560430X3FDBVT.kicad_sym")(options "")(descr ""))
 )

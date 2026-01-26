@@ -2109,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 55.88 83.82)
+			(xy 38.1 85.09) (xy 55.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2395,6 +2395,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0c90fe-ef5a-4a92-941e-cc93e3e3f491")
+	)
+	(wire
+		(pts
 			(xy 153.67 29.21) (xy 153.67 39.37)
 		)
 		(stroke
@@ -2436,7 +2446,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 81.28) (xy 55.88 81.28)
+			(xy 38.1 82.55) (xy 55.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2727,7 +2737,7 @@
 		(uuid "434451f9-908f-43a9-a9c7-d5748ae7fde0")
 	)
 	(label "USB_D+"
-		(at 55.88 81.28 180)
+		(at 55.88 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2747,7 +2757,7 @@
 		(uuid "4ae3b006-1201-4241-95b5-c657b712b852")
 	)
 	(label "USB_D-"
-		(at 55.88 83.82 180)
+		(at 55.88 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3011,6 +3021,17 @@
 			(justify left)
 		)
 		(uuid "5a870da7-df35-47e2-8bd5-bd46e9b9a19d")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 55.88 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64c532d2-b07f-45f1-9656-431e6070e839")
 	)
 	(hierarchical_label "Zumo_RST"
 		(shape output)
@@ -4213,7 +4234,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 38.1 81.28 0)
+			(at 38.1 82.55 0)
 			(uuid "fa6a9259-3a05-45e1-b861-44fc2a1ebe49")
 			(effects
 				(font
@@ -4223,8 +4244,18 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 38.1 83.82 0)
+			(at 38.1 85.09 0)
 			(uuid "4f9aa332-1ab5-4c3c-9328-e08049348c9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 38.1 78.74 0)
+			(uuid "2fa77cae-8c89-45f1-8e34-0beb31a87ca3")
 			(effects
 				(font
 					(size 1.27 1.27)
