@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-01-20")
+		(date "2026-02-06")
 		(rev "3.0")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
@@ -783,7 +783,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:MOLEX_2171820001"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -1152,7 +1152,64 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2733,7 +2790,7 @@
 		(pin "B1"
 			(uuid "41c2f087-634d-4b47-acb5-d855cd028986")
 		)
-		(pin "S1"
+		(pin "SH1"
 			(uuid "1ea98e4c-ce46-43e9-8603-b95539443df0")
 		)
 		(pin "B12"
@@ -2771,6 +2828,15 @@
 		)
 		(pin "A6"
 			(uuid "09be2e42-f841-4224-a5dc-a52899cbfa8e")
+		)
+		(pin "SH3"
+			(uuid "25b6465a-8fe5-4707-8e99-ca24687f955e")
+		)
+		(pin "SH2"
+			(uuid "119e4773-7253-4d40-9e11-f5745652febd")
+		)
+		(pin "SH4"
+			(uuid "587b45ba-147b-42e2-a5c4-e22a030ba107")
 		)
 		(instances
 			(project "ZumoComSystem"

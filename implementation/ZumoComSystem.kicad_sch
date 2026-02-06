@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-01-20")
+		(date "2026-02-06")
 		(rev "3.0")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
@@ -277,29 +277,9 @@
 				(justify left)
 			)
 		)
-		(pin "ESP_UART1_RX" output
-			(at 190.5 85.09 180)
-			(uuid "22faa20d-3b22-48df-be7b-d0c30f07e835")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ESP_UART1_TX" input
-			(at 190.5 82.55 180)
-			(uuid "5ac1d224-574e-48a4-846b-f985a1d92472")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ESP_UART0_TX" input
 			(at 190.5 62.23 180)
-			(uuid "40c77829-3f5d-4a14-bc52-c1a478bd7f43")
+			(uuid "e333f46b-5129-40ae-b5e2-b1e185fefcfb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,9 +287,29 @@
 				(justify left)
 			)
 		)
-		(pin "ESP_UART0_RX" output
+		(pin "ESP_UART1_RX" output
 			(at 190.5 64.77 180)
-			(uuid "2948eac0-5161-49de-b28f-6568a1d9c337")
+			(uuid "ec5212f5-89bf-439c-a85e-3bf673ae022a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_UART2_RX" output
+			(at 190.5 85.09 180)
+			(uuid "d5d3354f-d395-4a1a-ad44-7fb211dba7a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_UART2_TX" input
+			(at 190.5 82.55 180)
+			(uuid "23cea211-b9f2-4b1d-96d8-f04d9c1e1837")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,46 +429,6 @@
 				(justify right)
 			)
 		)
-		(pin "ESP_UART0_TX" output
-			(at 171.45 62.23 0)
-			(uuid "fc98d1e6-ddf2-4a9f-9f95-87be8ee54bbb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ESP_UART1_TX" output
-			(at 171.45 82.55 0)
-			(uuid "4c68d5df-19f5-4bb8-b751-872780a3ddfc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ESP_UART1_RX" input
-			(at 171.45 85.09 0)
-			(uuid "a24ced72-2bf3-4f60-bc39-06440f9afbd9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ESP_UART0_RX" input
-			(at 171.45 64.77 0)
-			(uuid "d17da709-4687-4f1e-ba09-f50a76eb1e5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VBUS" output
 			(at 133.35 62.23 180)
 			(uuid "b5ba8fc7-3a49-49ac-91a9-b611dc6c878d")
@@ -477,6 +437,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ESP_UART1_RX" input
+			(at 171.45 64.77 0)
+			(uuid "5baab4b7-b37f-4688-be8b-5dfb4a9e3d07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_UART1_TX" output
+			(at 171.45 62.23 0)
+			(uuid "bce7a025-8a5e-4a22-af5c-ad748d1bc91c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_UART2_RX" input
+			(at 171.45 85.09 0)
+			(uuid "3c82f707-51b2-47b5-83e3-10ac9779d1f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_UART2_TX" output
+			(at 171.45 82.55 0)
+			(uuid "9b23badd-0351-4426-8d46-1c4670003364")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

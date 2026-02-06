@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-01-20")
+		(date "2026-02-06")
 		(rev "3.0")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
@@ -4148,49 +4148,16 @@
 		)
 		(uuid "754a867a-4b30-464e-a2e3-731c5c80fdb5")
 	)
-	(hierarchical_label "EXT_SPI_MISO"
-		(shape output)
-		(at 60.96 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09dc94be-1d86-450c-9ec2-7579135a7375")
-	)
 	(hierarchical_label "ESP_UART2_RX"
 		(shape output)
-		(at 120.65 144.78 0)
+		(at 114.3 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "2509c838-0641-4b73-abc6-e933b336f59f")
-	)
-	(hierarchical_label "ESP_UART2_TX"
-		(shape input)
-		(at 120.65 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2fcc668d-b063-4ebc-b3e2-b5280c82c6ac")
-	)
-	(hierarchical_label "EXT_SPI_CS"
-		(shape input)
-		(at 120.65 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d399910-29fe-4209-9fe3-2e578c7a5dce")
+		(uuid "0ca3916e-955d-427f-bcbb-aa07eb8715eb")
 	)
 	(hierarchical_label "EXT_GPIO0"
 		(shape bidirectional)
@@ -4201,7 +4168,62 @@
 			)
 			(justify left)
 		)
-		(uuid "6eb6c593-65aa-4de2-bd88-de94a31c5f45")
+		(uuid "14505117-0937-40b7-84d4-6ba1749931b2")
+	)
+	(hierarchical_label "EXT_SPI_CS"
+		(shape input)
+		(at 60.96 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ad7fe48-26aa-4a13-8ad4-5c138f575153")
+	)
+	(hierarchical_label "EXT_SPI_MOSI"
+		(shape input)
+		(at 114.3 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "413ec047-609c-4d19-ae2e-301084463586")
+	)
+	(hierarchical_label "EXT_SPI_MISO"
+		(shape output)
+		(at 60.96 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e6715da-fd69-43b3-ab54-9f4f22d144bc")
+	)
+	(hierarchical_label "EXT_SPI_CLK"
+		(shape bidirectional)
+		(at 60.96 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5681e5b5-30ac-40f4-a03d-31ec215fa0d5")
+	)
+	(hierarchical_label "ESP_UART2_TX"
+		(shape input)
+		(at 114.3 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ecb09b3-79d5-4da2-962e-709e4716c357")
 	)
 	(hierarchical_label "Zumo_RST"
 		(shape input)
@@ -4213,17 +4235,6 @@
 			(justify right)
 		)
 		(uuid "908851bf-c9f8-4098-a5bd-d9285403a7ba")
-	)
-	(hierarchical_label "EXT_SPI_CLK"
-		(shape bidirectional)
-		(at 60.96 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7a62182-58d8-4891-b4ad-8a8bc1a72cb1")
 	)
 	(hierarchical_label "ESP_UART1_RX"
 		(shape output)
@@ -4246,17 +4257,6 @@
 			(justify left)
 		)
 		(uuid "f68cff7d-e133-44ff-bcad-6d9b654f0323")
-	)
-	(hierarchical_label "EXT_SPI_MOSI"
-		(shape input)
-		(at 60.96 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "faf9672b-51ea-4ec1-ad90-8740dcf67cac")
 	)
 	(rule_area
 		(polyline
