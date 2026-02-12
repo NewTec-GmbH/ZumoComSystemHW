@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.5"
     },
-    "CreationDate": "2026-01-12T16:44:52+01:00"
+    "CreationDate": "2026-02-12T11:30:48+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "ZumoComSystem",
       "GUID": "5a756d6f-436f-46d5-9379-7374656d2e6b",
-      "Revision": "V1.2"
+      "Revision": "V3.0"
     },
     "Size": {
       "X": 66.05,
