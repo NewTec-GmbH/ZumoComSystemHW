@@ -61,15 +61,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "USB*C*Receptacle*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 			(rectangle
 				(start -0.254 -17.78)

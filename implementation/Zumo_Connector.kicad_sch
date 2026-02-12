@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-02-06")
+		(date "2026-02-12")
 		(rev "3.0")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
@@ -3270,7 +3270,7 @@
 	)
 	(text "Pin Headers"
 		(exclude_from_sim no)
-		(at 82.296 34.798 0)
+		(at 78.994 34.798 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3279,7 +3279,7 @@
 		)
 		(uuid "267cd1cd-901b-4880-8cc2-0a847de4a74b")
 	)
-	(text "Display_Passthrough"
+	(text "CamDroid\n"
 		(exclude_from_sim no)
 		(at 86.868 113.03 0)
 		(effects
@@ -4349,7 +4349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-No." " SSM-105-T-DV"
+		(property "Part-No." "SSM-105-T-DV"
 			(at 86.36 134.62 0)
 			(effects
 				(font
@@ -5645,7 +5645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-No." "SSM-107-T-DV-P"
+		(property "Part-No." "SSM-107-T-SV"
 			(at 214.63 141.224 0)
 			(effects
 				(font

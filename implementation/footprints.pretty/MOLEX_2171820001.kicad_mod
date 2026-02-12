@@ -439,70 +439,6 @@
 		(uuid "40a188ac-1d48-45fd-984a-f839fd2db6c8")
 	)
 	(fp_line
-		(start 3.65 -0.26)
-		(end 3.85 -0.26)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0446d5d2-aa99-4f1e-a79a-573bbfc74959")
-	)
-	(fp_line
-		(start 3.85 0.26)
-		(end 3.65 0.26)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "5f85d9d8-0641-4629-8ba0-900dd0278d5c")
-	)
-	(fp_arc
-		(start 3.39 0)
-		(mid 3.466152 -0.183848)
-		(end 3.65 -0.26)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "38e3bfef-62a8-4755-a9cc-5aacf213c4a1")
-	)
-	(fp_arc
-		(start 3.65 0.26)
-		(mid 3.466152 0.183848)
-		(end 3.39 0)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b4a671fd-54cf-4427-a2ca-e85534c38f57")
-	)
-	(fp_arc
-		(start 3.85 -0.26)
-		(mid 4.033848 -0.183848)
-		(end 4.11 0)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "824094eb-18c4-4029-a7bb-62ab01f7a190")
-	)
-	(fp_arc
-		(start 4.11 0)
-		(mid 4.033848 0.183848)
-		(end 3.85 0.26)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "625693d3-03e8-4277-84fc-d8b2e7119123")
-	)
-	(fp_line
 		(start -4.77 -3)
 		(end 4.77 -3)
 		(stroke
@@ -652,6 +588,14 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "c07cfa2a-e87e-4299-972e-eb3a7b11937b")
 	)
+	(pad "" np_thru_hole roundrect
+		(at 3.75 0)
+		(size 0.72 0.52)
+		(drill oval 0.72 0.52)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "aa098902-8962-4506-a528-1bfae9250d6b")
+	)
 	(pad "A1" smd rect
 		(at -2.75 -0.865)
 		(size 0.298 0.87)
@@ -755,6 +699,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 112.5)
 		(uuid "904d6e18-5e73-4516-a221-7c03c013c750")
 	)
 	(pad "SH2" thru_hole oval
@@ -764,6 +709,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 67.5)
 		(uuid "0cdc53a2-1fd5-4543-9130-674a35686d6a")
 	)
 	(pad "SH3" thru_hole oval
@@ -773,6 +719,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 67.5)
 		(uuid "7e88473e-da76-448e-9d67-68ac006a6d3a")
 	)
 	(pad "SH4" thru_hole oval
@@ -782,6 +729,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 112.5)
 		(uuid "83bbbc67-6d72-42d7-abf6-55748d4d4189")
 	)
 	(embedded_fonts no)

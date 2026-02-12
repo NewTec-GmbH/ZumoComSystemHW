@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-02-06")
+		(date "2026-02-12")
 		(rev "3.0")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
@@ -5024,7 +5024,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" " Kyocera AVX "
+		(property "Manufacturer" "Kyocera AVX"
 			(at 172.72 135.89 0)
 			(effects
 				(font
@@ -5757,7 +5757,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KYOCERA AVX "
+		(property "Manufacturer" "Kyocera AVX"
 			(at 187.96 135.89 0)
 			(effects
 				(font
@@ -6140,7 +6140,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" " Kyocera AVX "
+		(property "Manufacturer" "Kyocera AVX"
 			(at 147.32 54.61 0)
 			(effects
 				(font
@@ -6226,7 +6226,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" " Kyocera AVX "
+		(property "Manufacturer" "Kyocera AVX"
 			(at 147.32 39.37 0)
 			(effects
 				(font
