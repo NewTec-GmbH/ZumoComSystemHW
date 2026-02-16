@@ -1,7 +1,7 @@
 # ZumoComSystemHW
 The electronic of the ZumoComSystem shield for the Pololu Zumo2040.
-<img width="2560" height="1082" alt="2c4754a6-4cac-41cd-b3ab-496c9d8d256e" src="https://github.com/user-attachments/assets/9bd2ddd9-7af1-47cd-87c9-9a5f39d5dcbb" />
-<img width="2560" height="1082" alt="ZumoComSystem_v3 0_2026-Feb-12_10-55-06AM-000_CustomizedView3382032160" src="https://github.com/user-attachments/assets/b1891f68-6a07-4ec2-83bd-f594070b7978" />
+<img width="2160" height="1082" alt="ZumoComSystem_v3 0_2026-Feb-16_12-37-13PM-000_CustomizedView12861701431" src="https://github.com/user-attachments/assets/efbb9894-843d-4760-9377-8a92a5a0d23f" />
+<img width="2160" height="1082" alt="ZumoComSystem_v3 0_2026-Feb-16_12-41-37PM-000_CustomizedView34376720580" src="https://github.com/user-attachments/assets/fab9d369-887d-4177-b312-b148ccccc637" />
 ## Features
 The following features are implemented in the current design:
 - Power supplied the Zumo robot
