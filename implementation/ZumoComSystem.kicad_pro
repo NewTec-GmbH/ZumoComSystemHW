@@ -884,7 +884,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../production/Gerber/ZumoComSystem/",
+      "plot": "../production/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../production/3D-Files/ZumoComSystem_v3_0.step",

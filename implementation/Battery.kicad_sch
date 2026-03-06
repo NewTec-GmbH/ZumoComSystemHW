@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-02-12")
+		(date "2026-02-25")
 		(rev "3.0")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
@@ -7373,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity Passive Product"
+		(property "Manufacturer" "YAGEO"
 			(at 218.44 119.38 0)
 			(effects
 				(font
@@ -7382,7 +7382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-No." "CRGCQ0603J10K"
+		(property "Part-No." "RE0603BRE0710KL"
 			(at 218.44 119.38 0)
 			(effects
 				(font
