@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "9bd626fa-46dd-47ae-a7b7-25f6be2e5c27")
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-02-25")
-		(rev "3.0")
+		(date "2026-06-10")
+		(rev "V3.1")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
 		(comment 2 "Schneider, Niklas")
@@ -196,11 +196,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "36343993-8bc8-460e-a919-34dba5144d61")
 		(property "Sheetname" "Zumo_Connector"
 			(at 190.5 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -210,6 +212,8 @@
 		)
 		(property "Sheetfile" "Zumo_Connector.kicad_sch"
 			(at 190.5 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -338,11 +342,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "654c76ef-f691-4c45-9863-fe7c40065172")
 		(property "Sheetname" "MCU"
 			(at 133.35 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,6 +358,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 133.35 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,11 +508,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "82bf8564-246a-44c9-96c9-b82f525b42db")
 		(property "Sheetname" "Power_Supply"
 			(at 85.09 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,6 +524,8 @@
 		)
 		(property "Sheetfile" "Power_Supply.kicad_sch"
 			(at 85.09 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,11 +574,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "aaa37362-47b8-4fd3-8977-e9f3436d2a7c")
 		(property "Sheetname" "Battery"
 			(at 85.09 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,6 +590,8 @@
 		)
 		(property "Sheetfile" "Battery.kicad_sch"
 			(at 85.09 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
