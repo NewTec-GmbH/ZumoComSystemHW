@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.65,
-          "width": 1.425
+          "height": 1.4,
+          "width": 1.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -78,10 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|134755000|119355000|3d14817c-2e36-40e1-8547-5401c46b4513|fcd78ada-4731-48ac-918e-f613d59307e9",
-          ""
-        ],
-        [
           "footprint_type_mismatch|127675000|142400000|cf5d94be-e6f3-4ded-92e6-7c7e5089401b|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -91,10 +87,6 @@
         ],
         [
           "footprint_type_mismatch|152250000|100610000|f540dfa3-6df1-4037-af69-374b476c8bdb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|137800000|144490000|8119fbd3-4edb-4b47-9e0b-10a8160014ea|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -214,11 +206,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onvia": true
+          "td_onvia": false
         }
       ],
       "teardrop_parameters": [
@@ -1078,7 +1070,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "kicad-embed://NT_Schematic_template_KiKad.kicad_wks",
-    "plot_directory": "output/",
+    "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -1096,7 +1088,7 @@
         "uuid": "9bd626fa-46dd-47ae-a7b7-25f6be2e5c27"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW1-9,J1-7,R1-29,#FLG1-6,D1-15,BT1-2,#PWR1-49,C1-16,F1,L1-2,Q1-5,TP1-6,U1-5",
     "variants": []
   },
   "sheets": [

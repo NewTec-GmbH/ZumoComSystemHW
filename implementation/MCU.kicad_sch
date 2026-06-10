@@ -1407,31 +1407,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1441,7 +1442,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1452,6 +1453,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1462,7 +1474,7 @@
 					)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, open"
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1473,92 +1485,21 @@
 					)
 				)
 			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -1568,12 +1509,33 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1589,9 +1551,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "B"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2521,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 180.34) (xy 87.63 185.42)
+			(xy 87.63 181.61) (xy 87.63 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 167.64) (xy 55.88 172.72)
+			(xy 55.88 167.64) (xy 55.88 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +2725,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 180.34) (xy 55.88 185.42)
+			(xy 55.88 181.61) (xy 55.88 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2885,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 167.64) (xy 87.63 172.72)
+			(xy 87.63 167.64) (xy 87.63 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3674,8 +3636,8 @@
 		)
 		(uuid "7fb98f04-f68a-4474-904a-6b568495de7a")
 	)
-	(hierarchical_label "ESP_UART1_TX"
-		(shape output)
+	(hierarchical_label "ESP_UART1_RX"
+		(shape input)
 		(at 219.71 113.03 0)
 		(effects
 			(font
@@ -3685,7 +3647,7 @@
 		)
 		(uuid "99522b7c-4ef4-4dcd-815c-c7cabe3f2931")
 	)
-	(hierarchical_label "ESP_UART1_RX"
+	(hierarchical_label "ESP_UART1_TX"
 		(shape input)
 		(at 219.71 102.87 0)
 		(effects
@@ -4957,38 +4919,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 55.88 176.53 270)
+		(lib_id "Switch:SW_Push")
+		(at 87.63 176.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ac5695ff-0737-4f4e-a6e4-322f3de544a0")
-		(property "Reference" "JP1"
-			(at 62.23 176.53 90)
+		(fields_autoplaced yes)
+		(uuid "906ec478-d6cb-4cfc-b082-7820a390b867")
+		(property "Reference" "SW2"
+			(at 91.44 175.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 69.85 180.34 90)
+		(property "Value" "SW_Push"
+			(at 91.44 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 55.88 176.53 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 92.71 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4998,8 +4963,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 55.88 176.53 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/307/en-b3u-3615.pdf"
+			(at 92.71 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,7 +4975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 176.53 0)
+			(at 87.63 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5019,8 +4984,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 55.88 176.53 0)
+		(property "Manufacturer" "Omron Electronics "
+			(at 87.63 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,8 +4995,8 @@
 				)
 			)
 		)
-		(property "Part-No." "-"
-			(at 55.88 176.53 0)
+		(property "Part-No." "B3U-1000P"
+			(at 87.63 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5042,15 +5007,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1c41b68-038e-44b3-8c70-ca514b55544b")
+			(uuid "145e11f5-2ca1-4077-89b8-6fcd8d413012")
 		)
 		(pin "2"
-			(uuid "7bd68e36-0ea9-40e8-99dd-41d498782351")
+			(uuid "3c8b5983-9834-4aa9-bd46-928e1a0d00ff")
 		)
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
-					(reference "JP1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5153,106 +5118,6 @@
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 87.63 176.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c6d18e14-f1a8-4513-9f22-88a3ab02d480")
-		(property "Reference" "JP2"
-			(at 93.98 176.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 101.6 180.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 87.63 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 87.63 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-No." "-"
-			(at 87.63 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10da7a86-0de7-4c67-ad0a-4519af7ee856")
-		)
-		(pin "2"
-			(uuid "f4249ec5-4b81-4058-8923-1c8efd8a81a0")
-		)
-		(instances
-			(project "ZumoComSystem"
-				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -5506,6 +5371,109 @@
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 55.88 176.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8634347-58a0-43c8-a508-d2d69daa3e42")
+		(property "Reference" "SW1"
+			(at 59.69 175.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 59.69 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 60.96 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/307/en-b3u-3615.pdf"
+			(at 60.96 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics "
+			(at 55.88 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-No." "B3U-1000P"
+			(at 55.88 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcb9de87-3c7a-422d-963e-e7e621d59c3d")
+		)
+		(pin "2"
+			(uuid "5da082c3-983c-4e7d-a803-f96d2dbd4a82")
+		)
+		(instances
+			(project "ZumoComSystem"
+				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

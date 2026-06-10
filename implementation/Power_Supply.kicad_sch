@@ -4485,7 +4485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18794af0-abd0-4f28-88cf-7386fa0d188a")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG02"
 			(at 240.03 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -4545,7 +4545,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "#FLG06")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6057,7 +6057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2946058-1bab-4732-b47b-1fbbefecc744")
-		(property "Reference" "SW6"
+		(property "Reference" "SW8"
 			(at 73.66 44.069 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6157,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/82bf8564-246a-44c9-96c9-b82f525b42db"
-					(reference "SW6")
+					(reference "SW8")
 					(unit 1)
 				)
 			)

@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.5"
+      "Version": "10.0.3"
     },
-    "CreationDate": "2026-03-19T11:59:45+01:00"
+    "CreationDate": "2026-06-10T14:53:33+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "ZumoComSystem",
       "GUID": "5a756d6f-436f-46d5-9379-7374656d2e6b",
-      "Revision": "V3.0"
+      "Revision": "V3.1"
     },
     "Size": {
       "X": 66.05,

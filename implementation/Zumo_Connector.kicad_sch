@@ -4309,7 +4309,7 @@
 		)
 		(uuid "0ca3916e-955d-427f-bcbb-aa07eb8715eb")
 	)
-	(hierarchical_label "ESP_UART1_TX"
+	(hierarchical_label "ESP_UART1_RX"
 		(shape input)
 		(at 52.07 64.77 180)
 		(effects
@@ -4386,8 +4386,8 @@
 		)
 		(uuid "5ecb09b3-79d5-4da2-962e-709e4716c357")
 	)
-	(hierarchical_label "ESP_UART1_RX"
-		(shape output)
+	(hierarchical_label "ESP_UART1_TX"
+		(shape input)
 		(at 77.47 64.77 0)
 		(effects
 			(font
@@ -5135,7 +5135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d2c3e09-bdef-417c-9330-031456af8636")
-		(property "Reference" "SW5"
+		(property "Reference" "SW7"
 			(at 219.71 73.025 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5220,7 +5220,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/36343993-8bc8-460e-a919-34dba5144d61"
-					(reference "SW5")
+					(reference "SW7")
 					(unit 1)
 				)
 			)

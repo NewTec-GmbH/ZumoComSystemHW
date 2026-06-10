@@ -1945,7 +1945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a1a758-276d-4a15-ac9d-d997488a2cae")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 222.25 139.065 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,7 +2030,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172/5aef8b65-dd22-4936-89eb-1c93774def70"
-					(reference "SW4")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -3886,7 +3886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9e39bc8-59ee-40b8-8070-8e3a5b4a8aae")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 172.72 139.065 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,7 +3971,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172/5aef8b65-dd22-4936-89eb-1c93774def70"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3988,7 +3988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca940a0c-e70e-40dc-9525-c37c56e32b9f")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 128.27 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +4071,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172/5aef8b65-dd22-4936-89eb-1c93774def70"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95fc641-a8bc-4186-b2ee-ff579dcea94f")
-		(property "Reference" "SW3"
+		(property "Reference" "SW5"
 			(at 196.85 139.065 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,7 +4453,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/654c76ef-f691-4c45-9863-fe7c40065172/5aef8b65-dd22-4936-89eb-1c93774def70"
-					(reference "SW3")
+					(reference "SW5")
 					(unit 1)
 				)
 			)

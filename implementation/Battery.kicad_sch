@@ -5051,7 +5051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18e973fc-aa19-43a0-a951-3509cbf4568e")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 39.37 73.025 0)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +5111,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5128,7 +5128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18f782d3-3221-4d7c-aa4f-b9b98f2790d8")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 43.18 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -5188,7 +5188,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -5416,7 +5416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30dd42e3-6703-444c-b26d-0763a6d57eb5")
-		(property "Reference" "SW7"
+		(property "Reference" "SW9"
 			(at 234.95 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5499,7 +5499,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "SW7")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -5619,7 +5619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34cf1b7d-74e8-4819-ae77-2c60757345be")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG06"
 			(at 160.02 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -5679,7 +5679,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#FLG05")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -6952,7 +6952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e0a5e58-5882-49d5-9dda-a8911d7d110f")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG05"
 			(at 139.7 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -7012,7 +7012,7 @@
 		(instances
 			(project "ZumoComSystem"
 				(path "/9bd626fa-46dd-47ae-a7b7-25f6be2e5c27/aaa37362-47b8-4fd3-8977-e9f3436d2a7c"
-					(reference "#FLG04")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)

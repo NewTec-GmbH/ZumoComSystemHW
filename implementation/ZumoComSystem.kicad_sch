@@ -291,7 +291,7 @@
 				(justify left)
 			)
 		)
-		(pin "ESP_UART1_RX" output
+		(pin "ESP_UART1_RX" input
 			(at 190.5 64.77 180)
 			(uuid "ec5212f5-89bf-439c-a85e-3bf673ae022a")
 			(effects
@@ -457,7 +457,7 @@
 				(justify right)
 			)
 		)
-		(pin "ESP_UART1_TX" output
+		(pin "ESP_UART1_TX" input
 			(at 171.45 62.23 0)
 			(uuid "bce7a025-8a5e-4a22-af5c-ad748d1bc91c")
 			(effects
