@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-06-10")
-		(rev "V3.1")
+		(date "2026-10-15")
+		(rev "V3.2")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
 		(comment 2 "Schneider, Niklas")

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ZumoComSystem")
-		(date "2026-06-10")
-		(rev "V3.1")
+		(date "2026-10-15")
+		(rev "V3.2")
 		(company "NewTec GmbH")
 		(comment 1 "Reyes, Gabryel")
 		(comment 2 "Schneider, Niklas")
@@ -1866,8 +1866,8 @@
 		(uuid "2f2ad02a-f25e-441e-9619-65a0b554522f")
 	)
 	(rectangle
-		(start 258.318 100.33)
-		(end 274.828 107.95)
+		(start 257.048 76.2)
+		(end 273.558 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -1917,8 +1917,8 @@
 		(uuid "4e77a733-edec-4663-97ff-db2428d3f065")
 	)
 	(rectangle
-		(start 173.99 99.06)
-		(end 185.42 101.6)
+		(start 158.75 99.06)
+		(end 167.64 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -2086,8 +2086,8 @@
 		(uuid "bf4dd65f-64d2-4edb-8c41-31bb1f04416e")
 	)
 	(rectangle
-		(start 184.15 78.74)
-		(end 195.58 81.28)
+		(start 173.99 78.74)
+		(end 184.15 81.28)
 		(stroke
 			(width 0)
 			(type default)
@@ -2269,7 +2269,7 @@
 	)
 	(text "BATT_Volt_Measure ADC values"
 		(exclude_from_sim no)
-		(at 266.7 99.06 0)
+		(at 265.43 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2312,7 +2312,7 @@
 	)
 	(text "6.0V => 2457"
 		(exclude_from_sim no)
-		(at 274.066 107.696 0)
+		(at 272.796 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2345,7 +2345,7 @@
 	)
 	(text "8.4V => 3440"
 		(exclude_from_sim no)
-		(at 274.066 105.156 0)
+		(at 272.796 81.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2389,7 +2389,7 @@
 	)
 	(text "10.0V => 4095"
 		(exclude_from_sim no)
-		(at 274.066 102.616 0)
+		(at 272.796 78.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3581,8 +3581,8 @@
 		)
 		(uuid "fbc4f2e0-e385-41f7-aab7-f15703f91c10")
 	)
-	(hierarchical_label "Batt_Volt_Measure"
-		(shape input)
+	(hierarchical_label "EXT_SPI_CS"
+		(shape output)
 		(at 219.71 100.33 0)
 		(effects
 			(font
@@ -3590,7 +3590,7 @@
 			)
 			(justify left)
 		)
-		(uuid "02c44d46-5281-4839-b4e1-280d7d68fdaf")
+		(uuid "03cafe99-3eff-4acf-bc1b-5fd8975cca90")
 	)
 	(hierarchical_label "EXT_SPI_CLK"
 		(shape bidirectional)
@@ -3602,6 +3602,17 @@
 			(justify left)
 		)
 		(uuid "348aff90-ce0d-4bec-9d60-72149260e700")
+	)
+	(hierarchical_label "Batt_Volt_Measure"
+		(shape input)
+		(at 219.71 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d10e063-38be-4785-b012-570dce06bdcf")
 	)
 	(hierarchical_label "Zumo_RST"
 		(shape output)
@@ -3701,17 +3712,6 @@
 			(justify left)
 		)
 		(uuid "df1fc51b-5d25-49e9-b4c2-cd2ff9e8c028")
-	)
-	(hierarchical_label "EXT_SPI_CS"
-		(shape output)
-		(at 219.71 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f58da364-90e4-4ce3-b7a6-c9c04bed37f9")
 	)
 	(symbol
 		(lib_id "Device:C")
